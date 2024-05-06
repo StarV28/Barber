@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Common</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20240506205938">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="300" data-scroll-show="1000" class="header">
+			<div class="header__container">
+				<div class="header__body">
+					<a href="index.html" class="header__logo">
+						<img src="img/icons/logo.svg" alt="Logo" />
+						<span>Cool Barber</span>
+					</a>
+					<div class="header__menu menu">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li id="index" class="menu__item">
+									<a href="index.html" class="menu__link">Home</a>
+								</li>
+								<li id="gallery" class="menu__item">
+									<a href="gallery.html" class="menu__link">Our masters</a>
+								</li>
+								<li id="testimon" class="menu__item">
+									<a data-goto="#testimonials" data-goto-heade href="#" class="menu__link">Testimonials</a>
+								</li>
+								<li id="contacts" class="menu__item">
+									<a href="contacts.html" class="menu__link">Contacts</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<div class="header__nav nav-header">
+						<a data-goto="#contacts" data-goto-header href="contacts.html" class="nav-header__map _icon-map">
+							<p>302 W 50th St,</p>
+							<p>NY, NY 10019</p>
+						</a>
+						<a href="tel:+8 (800) 000-00-00" class="nav-header__tel _icon-phone">
+							<p>8 (800) 000-00-00</p>
+							<p>Daily from 9 to 20</p>
+						</a>
+						<button type="button" class="menu__icon nav-header icon-menu"><span></span></button>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main class="page">
+			<button type="button" class="button-orang">Book now</button>
+			<div class="block-consultation">
+				<article class="consultation">
+					<div class="consultation__container">
+						<div class="consultation__body">
+							<div class="consultation__title">
+								<h3>Get in consultation with our expert barbers</h3>
+								<p>Expand Call-to-Action Details</p>
+							</div>
+							<form method="get" action="#" class="consultation__form form-consultation">
+								<div class="form-consultation__send send-form">
+									<input data-required data-validate data-error="Error" name="phone" required autocomplete="on" type="tel" placeholder="+3 (___) ___-__-__" class="send-form__tel input">
+									<input data-required data-validate data-error="Error" name="mail" required type="email" placeholder="Email" class="send-form__mail input">
+									<button type="submit" class="send-form__button button-orang_black">Book now</button>
+								</div>
+								<div class="checkbox">
+									<input checked id="c_1" data-error="Помилка" class="checkbox__input" type="checkbox" value="1" name="form[]">
+									<label for="c_1" class="checkbox__label"><span class="checkbox__text">By clicking
+											on the button, you
+											agree to the <small>terms of processing personal data</small></span></label>
+								</div>
+							</form>
+						</div>
+					</div>
+				</article>
+			</div>
+			<div class="block-contacts__container">
+				<article class="contact">
+					<div class="contact__title">
+						<h3>Contacts</h3>
+					</div>
+					<div class="contact__link _icon-phone"><a href="tel:+8(800)0000000">8 (800) 000-00-00</a></div>
+					<div class="contact__link _icon-mail"><a href="mailto">info@sitename.com</a></div>
+					<div class="contact__link _icon-map"><a href="#">302 W 50th St, NY, NY 10019</a></div>
+					<div class="contact__link _icon-clock"><a href="#">Daily from 9 to 20</a></div>
+				</article>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__link">
+				<a href="https://www.flaticon.com/authors/eucalyp">Icons by Eucalyp on Flaticons</a>
+				<a href="#">Images by Unsplash and Pexels</a>
+			</div>
+		</footer>
+	</div>
+	<script src="js/app.min.js?_v=20240506205938"></script>
+</body>
+
+</html>
